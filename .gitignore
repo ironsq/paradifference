@@ -1,14 +1,17 @@
-# See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # compiled output
 /client/dist/
+/*/target/
+/client/src/app/**/*.js
+/client/src/environments/*.js
+/client/src/*.js
 
 # dependencies
-
-client/node_modules
+/client/node_modules
 
 # IDEs and editors
 /.idea
+*.iml
 
 
 # IDE - VSCode
@@ -34,3 +37,5 @@ client/node_modules
 #System Files
 .DS_Store
 Thumbs.db
+
+
